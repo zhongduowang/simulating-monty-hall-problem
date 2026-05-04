@@ -1,16 +1,25 @@
-# React + Vite
+# Monty Hall Problem Simulator 🐐🚗🚪
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive Web application that simulates the famous Monty Hall problem. 
+Built with **React + Vite**, featuring a premium glassmorphism UI, interactive game modes, high-speed simulations, and bilingual (English/Chinese) support.
 
-Currently, two official plugins are available:
+## 🌟 Live Demo / 在线体验
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+**👉 [Play the Monty Hall Simulator Online](https://zhongduowang.github.io/simulating-monty-hall-problem/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Interactive Game**: Play the game yourself! Pick a door, watch Monty reveal a goat, and make your choice to stay or switch. Features 3D door flip animations and custom 8-bit sound effects (synthesized entirely with the Web Audio API).
+- **High-Speed Simulator**: Run the simulation up to 100,000 times instantly to statistically prove why switching doors gives you a 66.7% win rate, compared to a 33.3% win rate if you stay.
+- **Bilingual**: Toggle between English and Chinese effortlessly.
+- **Modern UI**: Dark mode, glassmorphism, fully responsive design, and fireworks animations when you win!
 
-## Expanding the ESLint configuration
+## 🚀 Running Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
