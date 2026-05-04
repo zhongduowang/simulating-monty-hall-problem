@@ -127,7 +127,7 @@ export default function InteractiveGame({ lang = 'zh' }) {
               onClick={() => handleDoorClick(door.id)}
             >
               <div className="door-face door-front">
-                <img src="/door.png" alt={`Door ${door.id + 1}`} className="door-img" />
+                <img src={`${import.meta.env.BASE_URL}door.png`} alt={`Door ${door.id + 1}`} className="door-img" />
                 <div className="door-overlay">
                   <span className="door-number">{door.id + 1}</span>
                   {isSelected && gameState !== 'finished' && (
@@ -137,7 +137,7 @@ export default function InteractiveGame({ lang = 'zh' }) {
               </div>
               <div className={`door-face door-back ${door.content === 'car' ? 'win' : 'lose'}`}>
                 <img 
-                  src={door.content === 'car' ? '/car.png' : '/goat.png'} 
+                  src={door.content === 'car' ? `${import.meta.env.BASE_URL}car.png` : `${import.meta.env.BASE_URL}goat.png`} 
                   alt={door.content} 
                   className="door-img" 
                 />
